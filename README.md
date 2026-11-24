@@ -1,6 +1,6 @@
 # Ergctl
 
-> **Product Hub:** [raymonddeoliveira.com/software#ergctl](https://www.raymonddeoliveira.com/software#ergctl) · **Releases & Checksums:** [GitHub Releases](https://github.com/raydeoliveira/ergctl/releases) · **Verified MCP:** [Glama](https://glama.ai/mcp/servers/raydeoliveira/ergctl) · **Official MCP Registry:** [io.github.raydeoliveira/ergctl](https://registry.modelcontextprotocol.io/v0.1/servers?search=raydeoliveira/ergctl) · **Pro Storefront ($29):** [Polar.sh](https://polar.sh/raymond-de-oliveira) · **Free Core:** `brew tap raydeoliveira/tap && brew install ergctl`
+> **Product Hub:** [raymonddeoliveira.com/software#ergctl](https://www.raymonddeoliveira.com/software#ergctl) · **Buy Ergctl Pro ($29):** [Polar Checkout](https://buy.polar.sh/polar_cl_yZX7OxANm5KpsXGmC233dm9mMCtARhSPMuFjw0XfvhT) · **Releases & Checksums:** [GitHub Releases](https://github.com/raydeoliveira/ergctl/releases) · **Verified MCP:** [Glama](https://glama.ai/mcp/servers/raydeoliveira/ergctl) · **Official MCP Registry:** [io.github.raydeoliveira/ergctl](https://registry.modelcontextprotocol.io/v0.1/servers?search=raydeoliveira/ergctl) · **Free Core:** `brew tap raydeoliveira/tap && brew install ergctl`
 
 Zero-dependency macOS CLI, interactive terminal dashboard (`tui`), structured workout engine, and live `--json` / MCP AI-coaching controller for **Bluetooth SIG FTMS v1.0 (`0x1826`)** and **Concept2 PM5 (`CE06xxxx` BLE GATT + `VID 0x17A4` USB HID CSAFE)** fitness ergometers.
 
@@ -147,5 +147,5 @@ Every mutating control path enforces: capability validation -> `lstat`-verified 
 
 ## License & Support
 
-- Commercial binary distribution is licensed under [LICENSE](LICENSE) (Free Core + `$29` one-time Perpetual Pro license via [Polar.sh](https://polar.sh/raymond-de-oliveira), up to 3 personal Macs, 14-day offline cache grace, zero telemetry).
+- Commercial binary distribution is licensed under [LICENSE](LICENSE) (Free Core + `$29` one-time Perpetual Pro license via [Polar.sh](https://buy.polar.sh/polar_cl_yZX7OxANm5KpsXGmC233dm9mMCtARhSPMuFjw0XfvhT), up to 3 personal Macs, 14-day offline cache grace, zero telemetry).
 - Security policy: [SECURITY.md](SECURITY.md) · Changelog: [CHANGELOG.md](CHANGELOG.md) · AI Agent Guide: [SKILL.md](SKILL.md) · MCP Manifest: [server.json](server.json).

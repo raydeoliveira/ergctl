@@ -6,7 +6,7 @@
 ---
 
 ## Product Title
-**Ergctl Pro — Open FTMS & Concept2 PM5 Ergometer CLI, AI Coach Stream & MCP Server (macOS)**
+**Ergctl Pro — FTMS & Concept2 PM5 CLI + MCP Server (macOS)**
 
 ## Price & Billing Model
 - **$29 USD** — One-time purchase (Perpetual License, v0.x updates included, up to 3 personal Macs). Replaces `$20–$44/mo` closed trainer & indoor rowing app subscriptions.
@@ -51,3 +51,13 @@ Own your indoor bike, rower, treadmill, SkiErg, and Concept2 PM5 training stack 
    - `ergctl-0.1.0-macos-arm64.mcpb`
    - `SHA256SUMS.txt`
 4. Copy the generated `buy.polar.sh/polar_cl_...` checkout URL into `README.md`, `raydeoliveira/raydeoliveira`, and `raymonddeoliveira.com/software.html`.
+
+---
+
+## Published Storefront & Directory Links
+- **Checkout Link ($29 one-time):** https://buy.polar.sh/polar_cl_yZX7OxANm5KpsXGmC233dm9mMCtARhSPMuFjw0XfvhT
+- **Checkout Link ID:** `b6af74a3-f45f-470f-a0cd-8e1f68c5bbe0`
+- **Polar Product ID:** `05c0a93a-37c2-4665-a941-7a75d679d9fd`
+- **Polar Benefit — License Keys (`ERGC`, `6aa47111-7587-44b8-9bba-a235f6a2c625`):** max `3` activations, perpetual (no expiration)
+- **Polar Benefit — File Downloads (`0f379850-fcfe-4e51-9968-dda0aad35405`):** `ergctl-0.1.0-macos-arm64.tar.gz`, `ergctl-0.1.0-macos-arm64.mcpb`, `SHA256SUMS.txt`
+- **Official MCP Registry:** https://registry.modelcontextprotocol.io/v0.1/servers?search=raydeoliveira/ergctl
