@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "id": "sweet-spot-erg-session",
+  "name": "Sweet Spot 2x2m ERG Intervals",
+  "description": "Quick warmup, two 2-minute sweet-spot blocks with active recovery, and cooldown.",
+  "machine_hint": "indoor_bike",
+  "ftp_watts": 250,
+  "steps": [
+    {
+      "id": "warmup",
+      "name": "Progressive Warmup",
+      "kind": "warmup",
+      "duration": { "kind": "seconds", "value": 90 },
+      "target": { "unit": "watts", "value": 120, "end_value": 175, "cadence_hint_rpm": 85 },
+      "cue": "Smooth pedal stroke, spin up to 85 rpm."
+    },
+    {
+      "id": "ss-1",
+      "name": "Sweet Spot Block 1",
+      "kind": "interval_work",
+      "duration": { "kind": "seconds", "value": 120 },
+      "target": { "unit": "percent_ftp", "value": 90, "cadence_hint_rpm": 90 },
+      "cue": "Settle into 90% FTP (225 W) steady."
+    },
+    {
+      "id": "rest-1",
+      "name": "Easy Spin Recovery",
+      "kind": "interval_rest",
+      "duration": { "kind": "seconds", "value": 60 },
+      "target": { "unit": "watts", "value": 115 },
+      "cue": "Relax shoulders, easy spin."
+    },
+    {
+      "id": "ss-2",
+      "name": "Sweet Spot Block 2",
+      "kind": "interval_work",
+      "duration": { "kind": "seconds", "value": 120 },
+      "target": { "unit": "percent_ftp", "value": 92, "cadence_hint_rpm": 92 },
+      "cue": "Slightly higher cadence, hold form."
+    },
+    {
+      "id": "cooldown",
+      "name": "Cooldown",
+      "kind": "cooldown",
+      "duration": { "kind": "seconds", "value": 60 },
+      "target": { "unit": "watts", "value": 100 },
+      "cue": "Bring heart rate down smoothly."
+    }
+  ]
+}

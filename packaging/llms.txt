@@ -1,0 +1,17 @@
+# Ergctl (`ergctl`)
+
+> Zero-dependency macOS Bluetooth SIG FTMS v1.0 (`0x1826`) and Concept2 PM5 (`CE06xxxx` BLE + `VID 0x17A4` USB HID CSAFE) ergometer CLI, live AI-coaching NDJSON stream, ANSI TUI, structured workout runner, FIT/TCX/CSV/JSON exporter, and stdio MCP server (`2024-11-05`, 16 tools, 4 `erg://` resources).
+
+## Capabilities
+- **100% Open Specs, Zero Reverse-Engineering Risk**: Full FTMS 5-machine support (Indoor Bike `0x2AD2`, Rower `0x2AD1`, Treadmill `0x2ACD`, Cross Trainer `0x2ACE`, Step Climber `0x2ACF`, Control Point `0x2AD9`, Feature `0x2ACC`, Status `0x2ADA`, Companion `0x180D/0x180F/0x180A`) and Concept2 PM5 (RowErg, SkiErg, BikeErg via BLE `CE060010/0020/0030/0080` + USB HID `0x17A4` CSAFE).
+- **Live AI-Coaching Loop & MCP Server**: Bidirectional NDJSON `ergctl stream --bidirectional` with `ERGCTL_WATCHDOG_MS` baseline auto-revert and stdio JSON-RPC 2.0 `ergctl mcp` (`16` tools, `4` `erg://` resources, safe `dry_run: true` defaults).
+- **Workouts, Multi-Format Export & Safety**: Parses JSON, YAML, `.erg`, and `.mrc` workouts; exports JSON, CSV, TCX, and binary ANT+ FIT (with valid header + trailing CRC-16); enforces capability guards, `lstat`-verified `0600` snapshots, and `SIGINT`/`SIGTERM` stop/restore.
+
+## Install
+- Homebrew: `brew install raydeoliveira/tap/ergctl`
+- Agent Skill: `SKILL.md` in repository root (`skills.sh` compatible)
+- MCP Manifest: `server.json` (`io.github.raydeoliveira/ergctl`)
+
+## Pricing
+- Free Core: `probe`, `workout validate`, `export` (JSON/CSV/TCX/FIT), `--dry-run`, unidirectional `stream`, `restore`, `license status`, read-only/dry-run MCP tools.
+- Pro License ($29 one-time via Polar.sh, replaces $20–$44/mo subscriptions): live `control`, live `workout run`, bidirectional AI-coaching `stream`, interactive `tui`, and live Pro MCP control tools across up to 3 Macs.

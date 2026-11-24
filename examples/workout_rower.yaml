@@ -1,0 +1,48 @@
+schema_version: 1
+id: pm5-2k-prep-intervals
+name: Concept2 PM5 2K Pace & Power Builder
+description: Structured rowing workout compatible with Concept2 PM5 BLE & USB CSAFE displays.
+machine_hint: pm5_row_erg
+steps:
+  - id: row-warmup
+    name: Paddle Warmup
+    kind: warmup
+    duration:
+      kind: seconds
+      value: 90
+    target:
+      unit: stroke_rate_spm
+      value: 20
+    cue: Light catch, 20 spm steady rhythm.
+  - id: row-500m-piece
+    name: 500m Target Pace Piece
+    kind: interval_work
+    duration:
+      kind: meters
+      value: 500
+    target:
+      unit: pace_per_500m
+      value: 115.0
+      min_value: 112.0
+      max_value: 118.0
+    cue: Hold 1:55/500m split at 26 spm.
+  - id: row-power-build
+    name: Steady 210W Work
+    kind: steady
+    duration:
+      kind: seconds
+      value: 120
+    target:
+      unit: watts
+      value: 210
+    cue: Drive with legs first, long finish.
+  - id: row-cooldown
+    name: Easy Paddle Cooldown
+    kind: cooldown
+    duration:
+      kind: seconds
+      value: 60
+    target:
+      unit: stroke_rate_spm
+      value: 18
+    cue: Smooth recovery strokes.

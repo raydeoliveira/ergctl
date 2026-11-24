@@ -1,0 +1,47 @@
+Ergctl Commercial Software License Agreement (EULA)
+Version 1.0 — Effective 2026
+
+Copyright (c) 2026 Raymond de Oliveira. All rights reserved.
+
+1. GRANT OF LICENSE
+Ergctl is distributed in two tiers within the commercial binary build:
+
+(a) Free Core Tier (No License Key Required):
+You are granted a non-exclusive, non-transferable, revocable license to install
+and execute the Free Core features (`probe`, `workout validate`, `export` to
+JSON/CSV/TCX/binary FIT, `--dry-run` previews, `restore`, `license status`,
+unidirectional `--json` telemetry stream monitoring, and read-only / dry-run
+MCP tools) for personal, evaluation, or commercial use.
+
+(b) Pro Perpetual Tier (Valid Polar.sh License Key Required):
+Upon purchase of a valid Ergctl Pro license key, Raymond de Oliveira grants
+you a perpetual, non-exclusive, non-transferable license for one (1) named
+individual to activate and use all Pro features (live `control`, live
+`workout run` execution, bidirectional AI-coaching `stream` commands/cues,
+interactive raw-mode `tui`, and live mutating MCP tools) on up to three (3)
+personal macOS machines. Pro licenses operate offline after activation with
+local `0600` key caching (14-day offline grace) and zero usage telemetry.
+
+2. RESTRICTIONS
+Except where explicitly permitted by an open-source release under a separate
+MIT License file distributed by the copyright holder:
+- You may not redistribute, resell, sublicense, or publish the commercial
+  binary, source code, or Pro license keys to third parties.
+- You may not bypass or disable the license validation check in the commercial
+  distribution.
+
+3. HARDWARE SAFETY & DISCLAIMER OF WARRANTY
+Ergctl implements open Bluetooth SIG FTMS v1.0 (`0x1826`) and Concept2 PM5
+(`CE06xxxx` BLE + `VID 0x17A4` USB HID CSAFE) specifications with capability
+pre-checks, `lstat`-guarded atomic baseline snapshots, `ERGCTL_WATCHDOG_MS`
+target auto-revert, and `SIGINT`/`SIGTERM` hardware stop/restore. Because
+third-party trainers, treadmills, rowers, ski/bike ergs, and BLE/USB links
+vary, THIS SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+OR IMPLIED, INCLUDING BUT NOT LIMITED TO WARRANTIES OF MERCHANTABILITY, FITNESS
+FOR A PARTICULAR PURPOSE, OR NON-INFRINGEMENT. IN NO EVENT SHALL THE COPYRIGHT
+HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES, OR HARDWARE/PERSONAL INJURY ARISING
+FROM USE OF THIS SOFTWARE.
+
+4. TERMINATION & SUPPORT
+Support and bug reports: https://github.com/raydeoliveira/ergctl/issues
+Commercial licensing inquiries: https://polar.sh/raymond-de-oliveira
