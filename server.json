@@ -2,8 +2,8 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.raydeoliveira/ergctl",
   "title": "Ergctl",
-  "description": "Bluetooth FTMS & Concept2 PM5 ergometer CLI, AI-coaching stream, TUI, and MCP server.",
-  "version": "0.1.0",
+  "description": "Free macOS FTMS & Concept2 PM5 ergometer CLI, TUI, FIT exporter, AI-coaching stream & MCP server.",
+  "version": "0.2.0",
   "websiteUrl": "https://github.com/raydeoliveira/ergctl",
   "repository": {
     "url": "https://github.com/raydeoliveira/ergctl",
@@ -12,16 +12,16 @@
   "packages": [
     {
       "registryType": "mcpb",
-      "identifier": "https://github.com/raydeoliveira/ergctl/releases/download/v0.1.0/ergctl-0.1.0-macos-arm64.mcpb",
-      "version": "0.1.0",
-      "fileSha256": "02133e052262ada9bf0ab9808450e24f355894d38ff27cb0e481bc4035ea73a4",
+      "identifier": "https://github.com/raydeoliveira/ergctl/releases/download/v0.2.0/ergctl-0.2.0-macos-arm64.mcpb",
+      "version": "0.2.0",
+      "fileSha256": "8bf5535905e433cd773b691bab6b25dfd85a6b2f8643673c31c4e830efa32c48",
       "transport": {
         "type": "stdio"
       },
       "environmentVariables": [
         {
           "name": "ERGCTL_LICENSE_KEY",
-          "description": "Optional Polar.sh Pro license key unlocking live control, workouts, bidirectional stream, TUI & MCP.",
+          "description": "Optional Polar.sh Pro license key unlocking automated workouts, bidirectional AI coaching & aero sim.",
           "isRequired": false,
           "isSecret": true
         }
